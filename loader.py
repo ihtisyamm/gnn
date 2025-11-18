@@ -25,6 +25,7 @@ print(f"  - {x.shape[0]} nodes")
 print(f"  - {x.shape[1]} features per node")
 print(f"✓ Loaded {len(edge_index)} edges")
 print(f"✓ Loaded {len(y)} labels")
+print(f"✓ Loaded {len(edge_timestamp)} timestamp")
 
 # ==============================================================================
 # PART 1: UNDERSTAND THE DATA
